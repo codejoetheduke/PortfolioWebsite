@@ -8,7 +8,11 @@ import LatestProjects from "./LatestProjects";
 import ContactMe from "./ContactMe";
 import "../mobile.css";
 
-const MobileHome = () => {
+const MobileHome = ({
+  handleTurnPages,
+}: {
+  handleTurnPages: (direction: string) => void;
+}) => {
   return (
     <div className="mobile-home">
       <div className="profile-section">
@@ -16,22 +20,22 @@ const MobileHome = () => {
       </div>
       <div className="content-section">
         <Card title="Work Experience">
-          <WorkExperience />
+          <WorkExperience handleTurnPages={handleTurnPages} />
         </Card>
         <Card title="Education">
-          <Education />
+          <Education handleTurnPages={handleTurnPages} />
         </Card>
         <Card title="My Services">
-          <MyServices />
+          <MyServices handleTurnPages={handleTurnPages} />
         </Card>
         <Card title="My Skills">
-          <MySkills />
+          <MySkills handleTurnPages={handleTurnPages} />
         </Card>
         <Card title="Latest Projects">
-          <LatestProjects />
+          <LatestProjects handleTurnPages={handleTurnPages} />
         </Card>
         <Card title="Contact Me">
-          <ContactMe />
+          <ContactMe handleTurnPages={handleTurnPages} />
         </Card>
       </div>
     </div>
