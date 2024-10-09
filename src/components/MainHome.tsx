@@ -4,7 +4,9 @@ import MobileHome from "./MobileHome"; // Import Mobile version
 
 const MainHome = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 600);
-
+  const handleTurnPages = () => {
+    return null;
+  };
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 600);
@@ -14,7 +16,7 @@ const MainHome = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  return isMobile ? <MobileHome /> : <Home />;
+  return isMobile ? <MobileHome handleTurnPages={handleTurnPages} /> : <Home />;
 };
 
 export default MainHome;
