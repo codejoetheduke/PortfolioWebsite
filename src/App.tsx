@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
-import { Experience, Navigation } from "./components";
+import { Experience, Navigation } from "./components/index";
 import Loader from "./components/Loader"; // Import the loader component
 import "./index.css";
 import MainHome from "./components/MainHome";
