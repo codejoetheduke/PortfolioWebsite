@@ -40,7 +40,7 @@ const Experience = (props: { isChecked: boolean }) => {
       {loading ? (
         <Loader /> // Show loader while loading
       ) : (
-        <Canvas style={{ height: "100vh", width: "100vw" }}>
+        <Canvas style={{ height: "100dvh", width: "100dvw" }}>
           <Environment preset="city" />
           <color args={["#695b5b"]} attach="background" />
           <PresentationControls

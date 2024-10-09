@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Route, Routes, BrowserRouter } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import { Experience, Navigation } from "./components/index";
 import Loader from "./components/Loader"; // Import the loader component
 import "./index.css";
@@ -36,12 +36,11 @@ function App() {
         isChecked={isChecked}
         handleCheckboxChange={handleCheckboxChange}
       />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Experience isChecked={isChecked} />} />
-          <Route path="/Home" element={<MainHome />} />
-        </Routes>
-      </BrowserRouter>
+
+      <Routes>
+        <Route path="/" element={<Experience isChecked={isChecked} />} />
+        <Route path="/home" element={<MainHome />} />
+      </Routes>
     </>
   );
 }

@@ -1,9 +1,21 @@
 import { links } from "../assets/constant";
+import { Link } from "react-router-dom";
 
 const Navigation = (props: {
   isChecked: boolean;
   handleCheckboxChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
 }) => {
+  // Handle the click on a link and toggle navigation menu
+  const handleClick = () => {
+    // Create a synthetic event to uncheck the checkbox
+    const syntheticEvent = {
+      target: { checked: false },
+    } as React.ChangeEvent<HTMLInputElement>;
+
+    // Call the handleCheckboxChange with the synthetic event
+    props.handleCheckboxChange(syntheticEvent);
+  };
+
   return (
     <div className="navigation">
       <input
@@ -24,9 +36,13 @@ const Navigation = (props: {
         <ul className="navigation__list">
           {links.map((content, index) => (
             <li className="navigation__item" key={index}>
-              <a href={content.link} className="navigation__link">
+              <Link
+                to={content.link}
+                className="navigation__link"
+                onClick={handleClick}
+              >
                 <span>{content.title}</span>
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
