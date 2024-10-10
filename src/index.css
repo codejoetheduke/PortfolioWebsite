@@ -17,6 +17,11 @@
   font-family: "Poppins", sans-serif;
 }
 
+section {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 :root {
   --bg-color: #1e201e;
   --main-color: #c7253e;

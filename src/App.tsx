@@ -40,6 +40,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Experience isChecked={isChecked} />} />
         <Route path="/home" element={<MainHome />} />
+        <Route path="/loader" element={<Loader />} />
       </Routes>
     </>
   );

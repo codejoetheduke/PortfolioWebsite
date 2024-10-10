@@ -12,6 +12,7 @@ import { useEffect, useState } from "react";
 import Loader from "./Loader"; // Import the loader
 
 const Experience = (props: { isChecked: boolean }) => {
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 600);
   const [loading, setLoading] = useState(true); // Track loading state
   const computer = useGLTF(
     "https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/macbook/model.gltf"
@@ -35,14 +36,23 @@ const Experience = (props: { isChecked: boolean }) => {
     }
   }, [props.isChecked == false]);
 
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 600);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
-    <>
+    <section style={{ height: "100dvh" }}>
       {loading ? (
         <Loader /> // Show loader while loading
       ) : (
-        <Canvas style={{ height: "100dvh", width: "100dvw" }}>
+        <Canvas style={{ height: "100%", width: "100%" }}>
           <Environment preset="city" />
-          <color args={["#695b5b"]} attach="background" />
+          <color args={["#695b6b"]} attach="background" />
           <PresentationControls
             global
             rotation={[0.13, 0.7, 0]}
@@ -61,7 +71,11 @@ const Experience = (props: { isChecked: boolean }) => {
                 position={[0, 0.55, -1.15]}
               />
 
-              <primitive object={computer.scene} position-y={-1.2} scale={1.1}>
+              <primitive
+                object={computer.scene}
+                position-y={-1.2}
+                scale={isMobile ? 1 : 1.3}
+              >
                 <Html
                   transform
                   wrapperClass="htmlScreen"
@@ -100,7 +114,7 @@ const Experience = (props: { isChecked: boolean }) => {
           />
         </Canvas>
       )}
-    </>
+    </section>
   );
 };
 

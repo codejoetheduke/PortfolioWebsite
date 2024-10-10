@@ -5,7 +5,7 @@ export const socialMedia: { socials: string; route: string }[] = [
   },
   {
     socials: "bx bxl-twitter",
-    route: "",
+    route: "https://x.com/poppatheduke",
   },
   {
     socials: "bx bxl-linkedin",
