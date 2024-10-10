@@ -79,8 +79,8 @@ const Experience = (props: { isChecked: boolean }) => {
                 <Html
                   transform
                   wrapperClass="htmlScreen"
-                  distanceFactor={1.17}
-                  position={[0, 1.56, -1.4]}
+                  distanceFactor={isMobile ? 1.2 : 1.17} // Adjust for mobile
+                  position={[0, isMobile ? 1.4 : 1.56, -1.4]} // Adjust positioning
                   rotation-x={-0.256}
                 >
                   {showIframe ? (
