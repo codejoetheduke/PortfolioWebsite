@@ -47,8 +47,8 @@ canvas {
 }
 
 .htmlScreen iframe {
-  max-width: 1024px;
-  max-height: 670px;
+  min-width: 1024px;
+  min-height: 670px;
   border: none;
   border-radius: 20px;
   background: black;
