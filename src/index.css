@@ -16,7 +16,11 @@
   outline: none;
   font-family: "Poppins", sans-serif;
 }
-
+#root {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
 section {
   margin: 0;
   padding: 0;

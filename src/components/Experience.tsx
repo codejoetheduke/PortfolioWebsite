@@ -46,7 +46,15 @@ const Experience = (props: { isChecked: boolean }) => {
   }, []);
 
   return (
-    <section style={{ height: "100dvh" }}>
+    <section
+      style={{
+        height: "100dvh",
+        position: "absolute",
+        top: 0,
+        left: 0,
+        width: "100vw",
+      }}
+    >
       {loading ? (
         <Loader /> // Show loader while loading
       ) : (
