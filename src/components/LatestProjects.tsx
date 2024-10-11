@@ -25,10 +25,10 @@ const LatestProjects = (props: {
           </p>
         </div>
         <div className="btn-box">
-          <a href="" className="btn">
+          <a href="https://github.com/poppatheduke" className="btn">
             Source Code
           </a>
-          <a href="" className="btn">
+          <a href="https://github.com/poppatheduke" className="btn">
             More Projects
           </a>
         </div>

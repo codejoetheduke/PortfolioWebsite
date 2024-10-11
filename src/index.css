@@ -38,9 +38,15 @@ section {
   --box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.2);
 }
 
-html,
-body {
+html {
   font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-size: 1rem;
   margin: 0;
   padding: 0;
   height: 100%;

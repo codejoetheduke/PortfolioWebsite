@@ -4,6 +4,7 @@ import { Experience, Navigation } from "./components/index";
 import Loader from "./components/Loader"; // Import the loader component
 import "./index.css";
 import MainHome from "./components/MainHome";
+import ContactPage from "./components/ContactPage";
 
 function App() {
   const [isChecked, setIsChecked] = useState(false); // Default unchecked
@@ -41,6 +42,7 @@ function App() {
         <Route path="/" element={<Experience isChecked={isChecked} />} />
         <Route path="/home" element={<MainHome />} />
         <Route path="/loader" element={<Loader />} />
+        <Route path="/contactme" element={<ContactPage />} />
       </Routes>
     </>
   );

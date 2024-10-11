@@ -5,7 +5,11 @@ const ContactMe = (props: { handleTurnPages: (direction: string) => void }) => {
   return (
     <>
       <div className="contact-box">
-        <form action="">
+        <form
+          action="mailto:dukekongo16@gmail.com"
+          method="post"
+          encType="text/plain"
+        >
           {input.map((content, index) => (
             <input
               key={index}

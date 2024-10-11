@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { socialMedia } from "../assets/constant";
 
 const ProfilePage = () => {
@@ -23,12 +24,12 @@ const ProfilePage = () => {
       </p>
 
       <div className="btn-box">
-        <a href="" className="btn">
+        <a href="/RESUME.rar" className="btn">
           Download CV
         </a>
-        <a href="" className="btn contact-me">
+        <Link to="/contactme" className="btn contact-me">
           Contact Me
-        </a>
+        </Link>
       </div>
     </div>
   );

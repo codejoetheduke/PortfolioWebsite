@@ -1,7 +1,7 @@
 export const socialMedia: { socials: string; route: string }[] = [
   {
-    socials: "bx bxl-facebook",
-    route: "",
+    socials: "bx bxl-github",
+    route: "https://github.com/poppatheduke",
   },
   {
     socials: "bx bxl-twitter",
@@ -9,11 +9,11 @@ export const socialMedia: { socials: string; route: string }[] = [
   },
   {
     socials: "bx bxl-linkedin",
-    route: "",
+    route: "https://linkedin.com/in/duke-kongo-556a4b238/",
   },
   {
     socials: "bx bxl-instagram-alt",
-    route: "",
+    route: "https://instagram.com/poppatheduke/",
   },
 ];
 export const skillsContent: {
@@ -86,6 +86,10 @@ export const links: { link: string; title: string }[] = [
   {
     link: "/",
     title: "02 Home",
+  },
+  {
+    link: "/contactme",
+    title: "03 Contact Me",
   },
 ];
 export const myServices: { i: string; h3: string; p: string }[] = [

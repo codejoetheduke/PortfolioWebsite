@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
 }
+
 @media only screen and (max-width: 600px) {
   .home {
     padding: 1rem; /* Add padding for mobile */
