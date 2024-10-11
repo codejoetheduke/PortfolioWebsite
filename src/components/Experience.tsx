@@ -93,7 +93,7 @@ const Experience = (props: { isChecked: boolean }) => {
                 >
                   {showIframe ? (
                     <iframe
-                      src="https://10990135.netlify.app/"
+                      src="https://poppatheduke.github.io/CV-/"
                       className={`iframe ${
                         props.isChecked == false
                           ? "iframe--visible"
