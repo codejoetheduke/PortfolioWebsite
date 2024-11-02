@@ -7,7 +7,7 @@ const LatestProjects = (props: {
     <>
       <div className="portfolio-box">
         <div className="img-box">
-          <img src="images/portfolio.png" alt="portfolio" />
+          <img src="images/Capture.PNG" alt="portfolio" />
         </div>
         <div className="info-box">
           <div className="info-title">
@@ -18,14 +18,18 @@ const LatestProjects = (props: {
           </div>
           <p>Tech Used:</p>
           <p style={{ textAlign: "justify" }}>
-            An innovative web application that enhances user engagement through
-            interactive features. This project focuses on delivering a seamless
-            user experience, showcasing my ability to integrate advanced
-            technologies and design principles effectively.
+            ASL Sign Language Classification App This ASL Sign Language
+            Classification App is a machine learning-powered web application
+            developed with Flask, utilizing a Random Forest classifier to
+            accurately recognize and classify American Sign Language signs.
+            Built with a focus on intuitive usability.
           </p>
         </div>
         <div className="btn-box">
-          <a href="https://github.com/poppatheduke" className="btn">
+          <a
+            href="https://github.com/poppatheduke/Sign-Language-App"
+            className="btn"
+          >
             Source Code
           </a>
           <a href="https://github.com/poppatheduke" className="btn">
