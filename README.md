@@ -1,30 +1,52 @@
-# React + TypeScript + Vite
+# Portfolio Website
+Welcome to my portfolio website! This site showcases my skills, projects, and professional journey as a data scientist and software developer passionate about creating impactful solutions.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Visit My Website: [https://thedukesportfolio.vercel.app/](https://thedukesportfolio.vercel.app/)
 
-Currently, two official plugins are available:
+![Website](https://github.com/user-attachments/assets/8a563835-b657-4468-b3c6-14e19b268cf2)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+About Me: Learn about my background, skills, and expertise.
+Projects: Explore my key projects, ranging from AI applications to web development, highlighting innovative and visually appealing designs.
+Blog: Read my thoughts and insights on data science, software development, and sustainable real estate.
+Contact: Get in touch with me for collaborations or inquiries.
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
+Frontend: HTML, CSS, JavaScript, React
+Backend: Flask, Node.js
+Deployment: Vercel, Netlify
+Design: Figma for creating modern and intuitive interfaces
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🖼️ Key Highlights
+Embedded 3D models using @react-three/drei and @react-three/fiber
+Modern, responsive design tailored for all devices
+Minimalistic and visually appealing layouts with short service descriptions
 
-- Configure the top-level `parserOptions` property like this:
+## 📽️ Demo
+[Click to watch a walkthrough of the website](https://www.youtube.com/watch?si=9iY5owTY5cI8Ier_&v=_-h3UjaClMo&feature=youtu.be).
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## 📂 Folder Structure
+```php
+portfolio-website/  
+├── src/  
+│   ├── components/      # Reusable UI components  
+│   ├── pages/           # All webpage files  
+│   ├── assets/          # Images, icons, and videos  
+│   └── styles/          # CSS and styling files  
+├── public/              # Static files  
+└── README.md            # Project documentation
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 💡 Future Plans
+Adding a sign language app section showcasing recent projects.
+Integrating real estate valuation features based on sustainable development and land economy principles.
+Expanding the blog with tutorials and case studies.
+
+## 📬 Contact
+Feel free to reach out if you have any questions, suggestions, or collaboration ideas:
+
+Email: [dukekongo16@example.com]
+
+LinkedIn: [linkedin.com/in/duke-kongo-556a4b238/](https://www.linkedin.com/in/duke-kongo-556a4b238/)
+
+GitHub: [github.com/poppatheduke](https://github.com/poppatheduke)
