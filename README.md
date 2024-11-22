@@ -29,10 +29,10 @@ Minimalistic and visually appealing layouts with short service descriptions
 ```php
 portfolio-website/  
 ├── src/  
-│   ├── components/      # Reusable UI components  
-│   ├── pages/           # All webpage files  
+│   ├── components/      # Reusable UI components          
 │   ├── assets/          # Images, icons, and videos  
-│   └── styles/          # CSS and styling files  
+│   └── styles/          # CSS and styling files
+|        ...             # Other Files  
 ├── public/              # Static files  
 └── README.md            # Project documentation
 ```
