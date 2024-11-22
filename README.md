@@ -31,8 +31,8 @@ portfolio-website/
 ├── src/  
 │   ├── components/      # Reusable UI components          
 │   ├── assets/          # Images, icons, and videos  
-│   └── styles/          # CSS and styling files
-|        ...             # Other Files  
+│   ├── styles/          # CSS and styling files
+|   └──  ...             # Other Files  
 ├── public/              # Static files  
 └── README.md            # Project documentation
 ```
