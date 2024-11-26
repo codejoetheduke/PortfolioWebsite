@@ -1,11 +1,11 @@
 export const socialMedia: { socials: string; route: string }[] = [
   {
     socials: "bx bxl-github",
-    route: "https://github.com/poppatheduke",
+    route: "https://github.com/codejoetheduke",
   },
   {
     socials: "bx bxl-twitter",
-    route: "https://x.com/poppatheduke",
+    route: "https://x.com/CodeJoeTheDuke",
   },
   {
     socials: "bx bxl-linkedin",
@@ -13,7 +13,7 @@ export const socialMedia: { socials: string; route: string }[] = [
   },
   {
     socials: "bx bxl-instagram-alt",
-    route: "https://instagram.com/poppatheduke/",
+    route: "https://instagram.com/codejoetheduke/",
   },
 ];
 export const skillsContent: {
