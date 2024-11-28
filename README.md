@@ -49,4 +49,4 @@ Email: [dukekongo16@example.com]
 
 LinkedIn: [linkedin.com/in/duke-kongo-556a4b238/](https://www.linkedin.com/in/duke-kongo-556a4b238/)
 
-GitHub: [github.com/poppatheduke](https://github.com/poppatheduke)
+GitHub: [github.com/poppatheduke](https://github.com/codejoetheduke)
