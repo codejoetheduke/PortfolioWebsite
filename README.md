@@ -45,7 +45,7 @@ Expanding the blog with tutorials and case studies.
 ## 📬 Contact
 Feel free to reach out if you have any questions, suggestions, or collaboration ideas:
 
-Email: [dukekongo16@example.com]
+Email: [dukekongo16@gmail.com]
 
 LinkedIn: [linkedin.com/in/duke-kongo-556a4b238/](https://www.linkedin.com/in/duke-kongo-556a4b238/)
 
