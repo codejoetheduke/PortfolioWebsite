@@ -50,3 +50,5 @@ Email: [dukekongo16@gmail.com]
 LinkedIn: [linkedin.com/in/duke-kongo-556a4b238/](https://www.linkedin.com/in/duke-kongo-556a4b238/)
 
 GitHub: [github.com/codejoetheduke](https://github.com/codejoetheduke)
+
+Have a Nce Day!
