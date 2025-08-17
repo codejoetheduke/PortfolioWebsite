@@ -51,4 +51,4 @@ LinkedIn: [linkedin.com/in/duke-kongo-556a4b238/](https://www.linkedin.com/in/du
 
 GitHub: [github.com/codejoetheduke](https://github.com/codejoetheduke)
 
-Have a Nice Day!
+## Don't Just Have a Good Day, Have a Great Day!
